@@ -32,7 +32,9 @@ This repository currently reflects the **Minimum Viable Vault (MVV)** phase of d
 * `hardware/sim/`: Testbenches proving the Bio-Hash unlock and Tamper Kill Switch
 * `hardware/scripts/`: Vivado Tcl scripts for automated block design generation
 * `hardware/src/`: Raw gate-level Verilog logic (AES Core, Vault Controller, ROM)
-* `software/`: AEGISOS and Rust Runtime (Zone 1 & 2) [PENDING]
+* `software/`: Application layer and execution runtimes
+* `software/firmware/scripts/`: XSCT automation scripts to compile the bare-metal application[cite: 11]
+* `software/firmware/src/`: Keymaster application code (`main.c`, `sha_256.c`, `lscript.ld`)[cite: 14, 15]
 * `CONTRIBUTING.md`: Contribution guidelines and PR requirements
 * `HARDWARE-LICENSE.txt`: CERN-OHL-S License text
 * `LICENSE`: GNU GPLv3 License text

@@ -1,0 +1,39 @@
+# Vivado Project Directories & Output Bloat
+project_aegis_mvv/
+*.xpr
+*.jou
+*.log
+*.str
+*.hwdef
+*.bit
+*.bin
+*.ltx
+*.mmi
+*.sysdef
+*.hdf
+
+# Run Directories
+.Xil/
+runs/
+synth_1/
+impl_1/
+ .cache/
+.hw/
+.ip_user_files/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
